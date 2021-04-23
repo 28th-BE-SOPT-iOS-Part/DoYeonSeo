@@ -28,7 +28,10 @@ class ConfirmViewController: UIViewController {
         let previousVC = self.presentingViewController
         
         self.dismiss(animated: true) {
-            previousVC?.navigationController?.popViewController(animated: true)
+            guard let mainVC = previousVC as? UINavigationController else {
+                return
+            }
+            mainVC.popToRootViewController(animated: false)
         }
                      
     }

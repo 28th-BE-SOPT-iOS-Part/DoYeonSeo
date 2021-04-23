@@ -21,11 +21,8 @@ class SignUpViewController: UIViewController {
     @IBAction func makeAccountButtonPressed(){
         if emailTextField.text?.isEmpty == false && passwordTextField.text?.isEmpty == false && passwordCheckTextField.text?.isEmpty == false {
             
-            guard let confirmVC = self.storyboard?.instantiateViewController(identifier: "ConfirmViewController") as? ConfirmViewController else {return}
-            
+            guard let confirmVC = self.storyboard?.instantiateViewController(identifier: "TabBarController") else {return}
             confirmVC.modalPresentationStyle = .fullScreen
-            confirmVC.message = emailTextField.text
-            
             self.present(confirmVC, animated: true, completion: nil)
         } else {
             print("모든 칸을 입력하세요")

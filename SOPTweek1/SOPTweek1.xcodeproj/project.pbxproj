@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4836F2062631E64B000301D0 /* Friends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4836F2052631E64B000301D0 /* Friends.storyboard */; };
+		4836F2092631E66F000301D0 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4836F2082631E66F000301D0 /* Chat.storyboard */; };
+		4836F20C2631E6EB000301D0 /* Sharp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4836F20B2631E6EB000301D0 /* Sharp.storyboard */; };
+		4836F20F2631E707000301D0 /* Shop.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4836F20E2631E707000301D0 /* Shop.storyboard */; };
+		4836F2122631E716000301D0 /* More.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4836F2112631E716000301D0 /* More.storyboard */; };
 		48478A58261C5B3000616858 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48478A57261C5B3000616858 /* AppDelegate.swift */; };
 		48478A5A261C5B3000616858 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48478A59261C5B3000616858 /* SceneDelegate.swift */; };
 		48478A5C261C5B3000616858 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48478A5B261C5B3000616858 /* ViewController.swift */; };
@@ -16,9 +21,16 @@
 		48478A6D261C626B00616858 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48478A6C261C626B00616858 /* LoginViewController.swift */; };
 		48478A70261C628100616858 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48478A6F261C628100616858 /* SignUpViewController.swift */; };
 		48478A73261C629B00616858 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48478A72261C629B00616858 /* ConfirmViewController.swift */; };
+		485A4B7926328917000B2486 /* ShowFriendsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A4B7826328917000B2486 /* ShowFriendsListViewController.swift */; };
+		485A4B7C26328A0C000B2486 /* ShowProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A4B7B26328A0C000B2486 /* ShowProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4836F2052631E64B000301D0 /* Friends.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Friends.storyboard; sourceTree = "<group>"; };
+		4836F2082631E66F000301D0 /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
+		4836F20B2631E6EB000301D0 /* Sharp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sharp.storyboard; sourceTree = "<group>"; };
+		4836F20E2631E707000301D0 /* Shop.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Shop.storyboard; sourceTree = "<group>"; };
+		4836F2112631E716000301D0 /* More.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = More.storyboard; sourceTree = "<group>"; };
 		48478A54261C5B3000616858 /* SOPTweek1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOPTweek1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48478A57261C5B3000616858 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48478A59261C5B3000616858 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +42,8 @@
 		48478A6C261C626B00616858 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		48478A6F261C628100616858 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		48478A72261C629B00616858 /* ConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
+		485A4B7826328917000B2486 /* ShowFriendsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowFriendsListViewController.swift; sourceTree = "<group>"; };
+		485A4B7B26328A0C000B2486 /* ShowProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +80,17 @@
 				48478A59261C5B3000616858 /* SceneDelegate.swift */,
 				48478A5B261C5B3000616858 /* ViewController.swift */,
 				48478A5D261C5B3000616858 /* Main.storyboard */,
+				4836F2052631E64B000301D0 /* Friends.storyboard */,
+				4836F2082631E66F000301D0 /* Chat.storyboard */,
+				4836F20B2631E6EB000301D0 /* Sharp.storyboard */,
+				4836F20E2631E707000301D0 /* Shop.storyboard */,
+				4836F2112631E716000301D0 /* More.storyboard */,
 				48478A60261C5B3200616858 /* Assets.xcassets */,
 				48478A62261C5B3200616858 /* LaunchScreen.storyboard */,
 				48478A65261C5B3200616858 /* Info.plist */,
 				48478A6C261C626B00616858 /* LoginViewController.swift */,
+				485A4B7826328917000B2486 /* ShowFriendsListViewController.swift */,
+				485A4B7B26328A0C000B2486 /* ShowProfileViewController.swift */,
 				48478A6F261C628100616858 /* SignUpViewController.swift */,
 				48478A72261C629B00616858 /* ConfirmViewController.swift */,
 			);
@@ -133,9 +154,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4836F2062631E64B000301D0 /* Friends.storyboard in Resources */,
+				4836F2122631E716000301D0 /* More.storyboard in Resources */,
 				48478A64261C5B3200616858 /* LaunchScreen.storyboard in Resources */,
 				48478A61261C5B3200616858 /* Assets.xcassets in Resources */,
+				4836F2092631E66F000301D0 /* Chat.storyboard in Resources */,
+				4836F20F2631E707000301D0 /* Shop.storyboard in Resources */,
 				48478A5F261C5B3000616858 /* Main.storyboard in Resources */,
+				4836F20C2631E6EB000301D0 /* Sharp.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +175,11 @@
 				48478A6D261C626B00616858 /* LoginViewController.swift in Sources */,
 				48478A5C261C5B3000616858 /* ViewController.swift in Sources */,
 				48478A58261C5B3000616858 /* AppDelegate.swift in Sources */,
+				485A4B7C26328A0C000B2486 /* ShowProfileViewController.swift in Sources */,
 				48478A73261C629B00616858 /* ConfirmViewController.swift in Sources */,
 				48478A5A261C5B3000616858 /* SceneDelegate.swift in Sources */,
 				48478A70261C628100616858 /* SignUpViewController.swift in Sources */,
+				485A4B7926328917000B2486 /* ShowFriendsListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
